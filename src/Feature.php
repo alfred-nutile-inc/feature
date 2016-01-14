@@ -1,5 +1,7 @@
 <?php
 
+namespace AlfredNutileInc\FeatureFlags;
+
 /**
  * The public API testing whether a specific feature is enabled and,
  * if so, what variant should be used.

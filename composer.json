@@ -1,0 +1,30 @@
+{
+    "name": "alfred-nutile-inc/feature-flags",
+    "description": "Based on Etsy library Converted to work with Composer",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Alfred Nutile",
+            "email": "me@alfrednutile.info"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~4.0"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlfredNutileInc\\FeatureFlags\\": "src/"
+        },
+        "classmap": [
+            "tests/TestBase.php"
+        ]
+    }
+}
